@@ -2,10 +2,10 @@
   img {
     height: 100%;
     object-fit: cover;
-    border-radius: 4px;
   }
 
   .card {
+    border-radius: 4px;
     position: relative;
     overflow: hidden;
 
@@ -20,9 +20,14 @@
     figcaption {
       position: absolute;
       bottom: 0;
+
       padding: 24px;
 
       h1 {
+        margin-top: 8px;
+      }
+
+      h3 {
         margin-top: 8px;
       }
     }
